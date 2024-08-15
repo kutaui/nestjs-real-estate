@@ -1,3 +1,13 @@
-Nestjs + TypeORM + Mysql powered Real estate API
+# How to run
 
-![COOKING](https://i.kym-cdn.com/entries/icons/facebook/000/041/943/1aa1blank.jpg)
+1. Run `npm install`.
+2. While it is installing create a `.env` file and add the following fields:
+```
+DB_NAME
+DB_PASSWORD
+DB_HOST
+DB_PORT
+DB_USE
+```
+3. Run the project with `npm run start:dev`.
+4. Go to http://localhost:3000/api for Swagger documentation and enjoy.
